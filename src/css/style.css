@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,700&display=swap');
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  transition: 0.5s ease-in;
+}
+
+
+h1, h2, h3,h4, h5, h6 {
+  font-family: 'Ubuntu', sans-serif !important;
+
+}
+
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background-color:#ffffff !important;
+}
+
+
+.home {
+    color: white;
+    overflow: hidden;
+    background: linear-gradient(to right,rgb(32,154,213,0.8), rgb(0,0,0,0.3)), url("../img/hmm.jpg");  /* Chrome 10-25, Safari 5.1-6 */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.home span {
+    color: blue;
+}
+
+.home button {
+
+    font-size: 15px !important;
+}
+
+.about h1 {
+
+  color: rgb(32,154,213,0.8) !important;
+}
+
+.about img{
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 1.2rem !important;
+}
+
+.card {
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 12% !important;
+    border: none !important;
+}
+
+
+
+.banner .card-title {
+
+    font-weight: bolder !important;
+}
+
+
+.banner i{
+
+    font-size: 32px !important;
+    color: #209AD5;
+}
+
+
+
+
+  /********** RESPONSIVENESS **********/
+  
+  /* For 480 Resolution - Laptop*/
+  @media(min-width: 320px) and (max-width: 480px) {
+
+    .home h1 {
+
+        font-size: calc(1.575rem + 2vw) !important;
+    }
+
+    .home p{
+
+        font-size: 1rem;
+    }
+
+    .home button {
+
+        width: 100% !important;
+    }
+
+    
+    .banner .card-title {
+
+        font-size: 0.95rem !important;
+        font-weight: bolder !important;
+    }
+
+  }
+
+  /* For 640 Resolution - mobile */
+  @media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
+
+    .home h1 {
+
+        font-size: calc(1.575rem + 2vw) !important;
+    }
+
+    .home p{
+
+        font-size: 1rem;
+    }
+
+    .home button {
+
+        width: 100% !important;
+    }
+
+    
+    .banner .card-title {
+
+        font-size: 0.95rem !important;
+        font-weight: bolder !important;
+    }
+
+  }
+
+  /* For 1024 Resolution - laptop 1 */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+   
+  }
+  
+  /* For 1366 Resolution  -- laptop 2*/
+  @media only screen and (min-width: 1030px) and (max-width: 1366px) {
+    /* STYLES GO HERE */
+  }
+  
+  /** desktop screen */
+  @media only screen and (min-width: 1370px) and (max-width: 1605px) {
+    /* STYLES GO HERE */
+  }
+  
+  /*Ipad Orientation : Landscape */
+  @media only screen and (orientation: landscape) and (min-device-pixel-ratio: 1) and (min-device-width: 768px) and (max-device-width: 1007px) {
+    /* STYLES GO HERE */
+  }
+  
+  /*ipad Orientation : Portrait */
+  @media only screen and (orientation: portrait) and (min-device-pixel-ratio: 1) and (min-device-width: 768px) and (max-device-width: 1007px) {
+    /* STYLES GO HERE */
+  }
