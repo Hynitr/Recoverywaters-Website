@@ -51,6 +51,54 @@ body {
   border-radius: 1.2rem !important;
 }
 
+
+
+.vision h1 {
+
+  color: rgb(32,154,213,0.8) !important;
+}
+
+.vision img{
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 1.2rem !important;
+}
+
+.product .card{
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 3% !important;
+  border: none !important;
+}
+
+.product h1 {
+
+  color: rgb(32,154,213,0.8) !important;
+}
+
+
+.product .card-img{
+
+  border-radius: 8% !important;
+}
+
+.product .card-title{
+
+  font-size: 2rem !important;
+  color: rgb(32,154,213,0.8) !important;
+}
+
+.product .lead {
+
+  font-size: 1.1rem !important;
+}
+
+.card-footer {
+
+  border: none !important;
+  background-color: transparent !important;
+}
+
 .card {
 
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;

@@ -3,6 +3,11 @@ import Typed from 'typed.js';
 import Card from 'react-bootstrap/Card';
 import './css/style.css';
 import abt from './img/abt.jpg';
+import ceo from './img/ceo.jpg';
+import love1 from './img/love1.jpg';
+import love2 from './img/love2.jpg';
+import love3 from './img/love3.jpg';
+import love4 from './img/love4.jpg';
 
 const Homepage = () => {
 
@@ -133,6 +138,145 @@ const Homepage = () => {
                 </div>
 
             </section>
+
+
+            <section className='vision mb-5 pb-5'>
+
+                <div className="container">
+
+                    <div className='row mt-5 pt-5'>
+
+                        <div className='col-5 me-5'>
+                            <img src={ceo} alt="" className='img-fluid m-auto h-100 w-100'/>
+                        </div>
+
+
+                        <div className='col-6'>
+
+                        <h1 className='mb-4 fw-bold display-5'>Meet <br/>Mrs. Yinlayefa Adeleke
+                            </h1>
+
+                            <p className='lead mb-4'>My name is Mrs. Yinlayefa Adeleke. I am the lead counsellor at 
+                                RecoveryWaters Counselling Centre and an expert in marriage and family life. I am 
+                                passionate about helping couples and families create healthy, nurturing relationships 
+                                and take a holistic approach to counselling.
+                            </p>
+                            <p className='lead mb-5'>
+                                With my years of experience, I believe I 
+                                can help guide you through the most difficult times and make positive changes in your life. 
+                                I look forward to getting to know you and working together to reach your goals. 
+                            </p>
+
+                            <button className='btn btn-lg btn-primary btn-rounded py-3 px-5'>Book a session</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+                
+            <section className='product bg-light pb-5 mb-5'>
+
+                <div className="container mt-5 ">
+
+                    <div className='text-center mt-5 pt-5 justify-content-center m-auto'>
+                        <h1 className='display-4 fw-bold col-7 m-auto mb-3'>Comprehensive Personalized Training</h1>
+                        <small className='lead'>Tailored to meet your needs and solve them adequately</small>
+                    </div>
+
+                    <div className='row mt-5 pt-5'>
+
+                        <div className='col-6'>
+                            <Card className='h-100 px-3 py-3'>
+                                <Card.Img src={ love1 } className='px-4 mt-4'/>
+                                <Card.Body className='mt-3'>
+                                    <Card.Title className='mb-3 fw-bold'>The New Way To Love</Card.Title>
+                                    <Card.Text className='mb-5 lead'>
+                                    This Programme is for Couples in a challenged or crisis-ridden marriage who wants to overhaul and give the marriage a fresh start. 
+                                    Great news! This is absolutely possible and doable too. As long as both spouses are willing and committed. And where one party isn?t 
+                                    making effort, the willing spouse can turn things around for them.
+                                    </Card.Text>
+                                    
+                                </Card.Body>
+                                <Card.Footer className='text-center m-auto mb-4'>
+                                    <button className='btn btn-lg btn-primary btn-rounded py-3 px-5'>Book a session</button>
+                                </Card.Footer>
+                            </Card>
+                        </div>
+
+                        <div className='col-6'>
+                            <Card className='h-100 px-3 py-3'>
+                                <Card.Img src={ love2 } className='px-4 mt-4'/>
+                                <Card.Body className='mt-3'>
+                                    <Card.Title className='mb-3 fw-bold'>The Power of You</Card.Title>
+                                    <Card.Text className='mb-5 lead'>
+                                    This programme is for Single and Ready (Ladies or young men) who want to start 
+                                    the journey of marriage but are not sure of themselves and are somewhat sceptical.
+                                    </Card.Text>
+                                    
+                                </Card.Body>
+                                <Card.Footer className='text-center m-auto mb-4'>
+                                    <button className='btn btn-lg btn-primary btn-rounded py-3 px-5'>Book a session</button>
+                                </Card.Footer>
+                            </Card>
+                        </div>
+
+
+
+                    </div>
+
+
+                    <div className='row mt-5 pt-5'>
+
+                        <div className='col-6'>
+                            <Card className='h-100 px-3 py-3'>
+                                <Card.Img src={ love3 } className='px-4 mt-4'/>
+                                <Card.Body className='mt-3'>
+                                    <Card.Title className='mb-3 fw-bold'>So Much More Than Rings</Card.Title>
+                                    <Card.Text className='mb-5 lead'>
+                                    THE MARRIAGE YOU DESIRE IS WAITING FOR YOU. Brief of what to expect. At The RecoveryWaters Counselling Centre, 
+                                    we know that preparing for a wedding does not equal being prepared for marriage. The wedding is just a few hours 
+                                    event and the marriage, a lifetime, hence we have carefully created this program to adequately prepare you for a 
+                                    satisfying and fulfilling marriage. Our OYELA & SYMBIS Pre-marriage Preparation Assessments will give you a big 
+                                    and powerful start to having the marriage of your desire.
+                                    </Card.Text>
+                                    
+                                </Card.Body>
+                                <Card.Footer className='text-center m-auto mb-4'>
+                                    <button className='btn btn-lg btn-primary btn-rounded py-3 px-5'>Book a session</button>
+                                </Card.Footer>
+                            </Card>
+                        </div>
+
+                        <div className='col-6'>
+                            <Card className='h-100 px-3 py-3'>
+                                <Card.Img src={ love4 } className='px-4 mt-4'/>
+                                <Card.Body className='mt-3'>
+                                    <Card.Title className='mb-3 fw-bold'>Clarity Session</Card.Title>
+                                    <Card.Text className='mb-5 lead'>
+                                    Having a clear direction starts with a clarity session. This Clarity Session is an opportunity for us to meet 
+                                    (virtually) face-to-face, 1:1, and get acquainted with one another. This 50 minutes session will help you to 
+                                    identify clearly what the real issues are and what needs to be done, the possible steps you can take to address 
+                                    them and be free to live your happy life. I show you how with a personalised, bespoke support plan tailored to 
+                                    your specific goals and aspirations / needs. 
+                                    </Card.Text>
+                                    
+                                </Card.Body>
+                                <Card.Footer className='text-center m-auto mb-4'>
+                                    <button className='btn btn-lg btn-primary btn-rounded py-3 px-5'>Book a session</button>
+                                </Card.Footer>
+                            </Card>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
         </div>
      );
 }
